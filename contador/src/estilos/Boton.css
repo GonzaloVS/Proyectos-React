@@ -1,0 +1,31 @@
+button{
+  width: 150px;
+  height: 75px;
+  font-family: Montserat, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: darkgrey;
+}
+
+.boton-aumentar{
+  background-color: grey;
+}
+
+.boton-restar{
+  background-color: grey;
+}
+
+.boton-reiniciar:hover{
+  background-color: red;
+}
+
+.boton-reiniciar{
+  background-color: darkred;
+}
