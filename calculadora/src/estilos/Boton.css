@@ -1,0 +1,32 @@
+.boton-contenedor, .boton-clear  {
+    height: 90px;
+    display: flex;
+    flex: 1 1; /* flex-grow flex-shrink  todos proporcionales y del mismo tamaño*/
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #252525;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.boton-contenedor:hover{
+    background-color: #505050;
+}
+
+.operador {
+    background-color: darkgreen;
+}
+
+.operador:hover {
+    background-color: green;
+}
+
+.boton-clear:hover{
+    background-color: #505050;
+}
